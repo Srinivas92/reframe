@@ -1,0 +1,8 @@
+{:project/name "peak-dash",
+:project/tagline "new proj",
+:project/repo-url "http://localhost:3000",
+:project/home-page-url "http://localhost:300",
+:project/beginner-issues-label "beginner",
+:project/description "dev",
+:project/beginner-friendly true,
+:record/tags "all reports"}
