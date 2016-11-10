@@ -1,0 +1,5 @@
+{:project/name "srini",
+ :project/tagline "srini dashboard",
+ :project/repo-url "http://localhost:3000",
+ :project/home-page-url "http://localhost:3000",
+ :project/description "srini dashboard"}
