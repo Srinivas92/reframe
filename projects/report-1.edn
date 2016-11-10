@@ -1,0 +1,7 @@
+{:project/name "Report 1",
+ :project/tagline "Waorking report",
+ :project/repo-url "http://localhost:3000",
+ :project/home-page-url "http://localhost:300",
+ :project/beginner-issues-label "reports",
+ :project/description "1st dashboard",
+ :record/tags "reports, all reports, dev "}
