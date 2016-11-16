@@ -1,32 +1,26 @@
-<html>
-<body>
-
-<form action="action_page.php">
-  
-  Query name:<br>
-  <input type="text" name="Type query">
-  <br><br>
-  <input type="submit" value="Submit">
-</form>
-
-<table border="1">
-  <tr>
-    <th>Submission ID</th>
-    <th>Form ID</th>
-    <th>IP</th>
-    <th>Name</th>
-    <th>E-mail</th>
-    <th>Message</th>
-  </tr>
-  <tr>
-    <td>123456789</td>
-    <td>12345</td>
-    <td>123.456.789</td>
-    <td>John Johnny</td>
-    <td>johnny@johnysite.com</td>
-    <td>This is the message John sent you</td>
-  </tr>
-</table>
-
-</body>
-</html>
+([:html
+  [:body
+   [:form
+    {:action "action_page.php"}
+    "\n  \n  Query name:"
+    [:br]
+    [:input {:name "Type query", :type "text"}]
+    [:br]
+    [:br]
+    [:input {:value "Submit", :type "submit"}]]
+   [:table
+    {:border "1"}
+    [:tr
+     [:th "Submission ID"]
+     [:th "Form ID"]
+     [:th "IP"]
+     [:th "Name"]
+     [:th "E-mail"]
+     [:th "Message"]]
+    [:tr
+     [:td "123456789"]
+     [:td "12345"]
+     [:td "123.456.789"]
+     [:td "John Johnny"]
+     [:td "johnny@johnysite.com"]
+     [:td "This is the message John sent you"]]]]])
